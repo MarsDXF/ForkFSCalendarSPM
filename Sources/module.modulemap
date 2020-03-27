@@ -1,4 +1,21 @@
 module FSCalendar {
-  umbrella header "FSCalendar.h"
+    header "FSCalendar.h"
+    header "FSCalendarAppearance.h"
+    header "FSCalendarConstants.h"
+    header "FSCalendarCell.h"
+    header "FSCalendarWeekdayView.h"
+    header "FSCalendarHeaderView.h"
+
+    header "FSCalendarCalculator.h"
+    header "FSCalendarCell.h"
+    header "FSCalendarCollectionView.h"
+    header "FSCalendarAnimationLayout.h"
+    header "FSCalendarDelegationFactory.h"
+    header "FSCalendarDelegationProxy.h"
+    header "FSCalendarExtensions.h"
+    header "FSCalendarHeader.h"
+    header "FSCalendarSeparatorDecorationView.h"
+    header "FSCalendarStaticHeader.h"
+    header "FSCalendarTransitionCoordinator.h"
   export *
 }
