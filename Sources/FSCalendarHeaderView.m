@@ -1,5 +1,5 @@
 //
-//  FSCalendarHeader.m
+//  FSCalendarHeaderView.m
 //  Pods
 //
 //  Created by Wenchao Ding on 29/1/15.

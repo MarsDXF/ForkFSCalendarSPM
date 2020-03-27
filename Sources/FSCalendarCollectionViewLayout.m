@@ -1,5 +1,5 @@
 //
-//  FSCalendarAnimationLayout.m
+//  FSCalendarCollectionViewLayout.m
 //  FSCalendar
 //
 //  Created by dingwenchao on 1/3/16.
