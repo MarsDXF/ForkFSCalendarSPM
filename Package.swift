@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ForkFSCalendarSPM",
+    name: "FSCalendar",
     platforms: [
         .iOS(.v11)
     ],
@@ -14,8 +14,8 @@ let package = Package(
 //            name: "ObjFSCalendar",
 //            targets: ["ObjFSCalendar"]),
         .library(
-            name: "ForkFSCalendarSPM",
-            targets: ["ForkFSCalendarSPM"]),
+            name: "FSCalendar",
+            targets: ["FSCalendar"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,8 +25,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "ForkFSCalendarSPM",
-            dependencies: [], path: "Sources/ForkFSCalendarSPM", sources: ["FSCalendar.m", "FSCalendarAppearance.m", "FSCalendarCalculator.m", "FSCalendarCell.m", "FSCalendarCollectionView.m", "FSCalendarAnimationLayout.m", "FSCalendarConstane.m", "FSCalendarDelegationFactory.m", "FSCalendarDelegationProxy.m", "FSCalendarExtensions.m", "FSCalendarHeader.m", "FSCalendarSeparatorDecorationView.m", "FSCalendarStaticHeader.m", "FSCalendarTransitionCoordinator.m", "FSCalendarWeekdayView.m", "include/FSCalendar.h", "include/FSCalendarAppearance.h", "include/FSCalendarCalculator.h", "include/FSCalendarCell.h", "include/FSCalendarCollectionView.h", "include/FSCalendarCollectionViewLayout.h", "include/FSCalendarConstane.h", "include/FSCalendarDelegationFactory.h", "include/FSCalendarDelegationProxy.h", "include/FSCalendarDynamicHeader.h", "include/FSCalendarExtensions.h", "include/FSCalendarHeaderView.h", "include/FSCalendarSeparatorDecorationView.h", "include/FSCalendarStaticHeader.h", "include/FSCalendarTransitionCoordinator.h", "include/FSCalendarWeekdayView.h"]),
+            name: "FSCalendar",
+            dependencies: [], path: "Sources", sources: ["FSCalendar.m", "FSCalendarAppearance.m", "FSCalendarCalculator.m", "FSCalendarCell.m", "FSCalendarCollectionView.m", "FSCalendarAnimationLayout.m", "FSCalendarConstane.m", "FSCalendarDelegationFactory.m", "FSCalendarDelegationProxy.m", "FSCalendarExtensions.m", "FSCalendarHeader.m", "FSCalendarSeparatorDecorationView.m", "FSCalendarStaticHeader.m", "FSCalendarTransitionCoordinator.m", "FSCalendarWeekdayView.m", "include/FSCalendar.h", "include/FSCalendarAppearance.h", "include/FSCalendarCalculator.h", "include/FSCalendarCell.h", "include/FSCalendarCollectionView.h", "include/FSCalendarCollectionViewLayout.h", "include/FSCalendarConstane.h", "include/FSCalendarDelegationFactory.h", "include/FSCalendarDelegationProxy.h", "include/FSCalendarDynamicHeader.h", "include/FSCalendarExtensions.h", "include/FSCalendarHeaderView.h", "include/FSCalendarSeparatorDecorationView.h", "include/FSCalendarStaticHeader.h", "include/FSCalendarTransitionCoordinator.h", "include/FSCalendarWeekdayView.h"]),
 //        .target(
 //            name: "ObjFSCalendar",
 //            dependencies: []),
