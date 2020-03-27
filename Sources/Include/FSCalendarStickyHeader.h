@@ -1,5 +1,5 @@
 //
-//  FSCalendarStaticHeader.h
+//  FSCalendarStickyHeader.h
 //  FSCalendar
 //
 //  Created by dingwenchao on 9/17/15.

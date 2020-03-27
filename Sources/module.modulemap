@@ -5,7 +5,6 @@ module FSCalendar {
     header "FSCalendarCell.h"
     header "FSCalendarWeekdayView.h"
     header "FSCalendarHeaderView.h"
-
     header "FSCalendarCalculator.h"
     header "FSCalendarCell.h"
     header "FSCalendarCollectionView.h"
@@ -15,7 +14,9 @@ module FSCalendar {
     header "FSCalendarExtensions.h"
     header "FSCalendarHeader.h"
     header "FSCalendarSeparatorDecorationView.h"
-    header "FSCalendarStaticHeader.h"
+    header "FSCalendarStickyHeader.h"
     header "FSCalendarTransitionCoordinator.h"
+    header "FSCalendarCollectionViewLayout.h"
+    header "FSCalendarDynamicHeader.h"
   export *
 }
