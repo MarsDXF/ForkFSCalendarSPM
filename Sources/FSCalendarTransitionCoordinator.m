@@ -9,6 +9,7 @@
 #import "FSCalendarTransitionCoordinator.h"
 #import "FSCalendarExtensions.h"
 #import "FSCalendarDynamicHeader.h"
+#import "FSCalendarCollectionViewLayout.h"
 
 @interface FSCalendarTransitionCoordinator ()
 
