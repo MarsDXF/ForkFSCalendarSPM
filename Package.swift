@@ -26,7 +26,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ForkFSCalendarSPM",
-            dependencies: []),
+            dependencies: [], path: "Sources/ForkFSCalendarSPM", sources: ["FSCalendar.m", "FSCalendarAppearance.m", "FSCalendarCalculator.m", "FSCalendarCell.m", "FSCalendarCollectionView.m", "FSCalendarAnimationLayout.m", "FSCalendarConstane.m", "FSCalendarDelegationFactory.m", "FSCalendarDelegationProxy.m", "FSCalendarExtensions.m", "FSCalendarHeader.m", "FSCalendarSeparatorDecorationView.m", "FSCalendarStaticHeader.m", "FSCalendarTransitionCoordinator.m", "FSCalendarWeekdayView.m", "include/FSCalendar.h", "include/FSCalendarAppearance.h", "include/FSCalendarCalculator.h", "include/FSCalendarCell.h", "include/FSCalendarCollectionView.h", "include/FSCalendarCollectionViewLayout.h", "include/FSCalendarConstane.h", "include/FSCalendarDelegationFactory.h", "include/FSCalendarDelegationProxy.h", "include/FSCalendarDynamicHeader.h", "include/FSCalendarExtensions.h", "include/FSCalendarHeaderView.h", "include/FSCalendarSeparatorDecorationView.h", "include/FSCalendarStaticHeader.h", "include/FSCalendarTransitionCoordinator.h", "include/FSCalendarWeekdayView.h"]),
 //        .target(
 //            name: "ObjFSCalendar",
 //            dependencies: []),
